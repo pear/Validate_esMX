@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "pfischer@php.net",
+            "name": "Pablo Fischer",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate_esMX": "./"
+        }
+    },
+    "description": "Validation class for Mexican Spanish",
+    "include-path": [
+        "./"
+    ],
+    "license": "LGPL",
+    "name": "pear/validate_esmx",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_esMX",
+        "source": "https://github.com/pear/Validate_esMX"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
